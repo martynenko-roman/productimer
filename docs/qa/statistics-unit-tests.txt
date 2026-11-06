@@ -1,0 +1,34 @@
+Another instance of SwiftPM (PID: 17356) is already running using '/private/tmp/productimer-toolchain/build', waiting until that process has finished execution...[0/1] Planning build
+Building for debugging...
+[0/4] Write swift-version-7C0B0EF558F1DA5D.txt
+Build complete! (0.17s)
+◇ Test run started.
+↳ Testing Library Version: 1902
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Test summarySeparatesFocusBreakAndOutcomes() started.
+◇ Test historyExcludesPausesAndCompletesOnce() started.
+◇ Test automaticBoundariesAndSleepCatchUp() started.
+◇ Test oldSaveMigratesWithoutInventingHistory() started.
+◇ Test pauseResumeDoesNotRepeatStart() started.
+◇ Test preferencesDoNotChangeCurrentDeadline() started.
+◇ Test daylightSavingBucketsPreserveTime() started.
+◇ Test midnightAllocationAndCompletionDate() started.
+◇ Test partialActivitiesAndReadyActions() started.
+◇ Test autoStartCreatesDistinctSessionAndExpiredSkipDoesNotDoubleAdvance() started.
+◇ Test skipAndResetDoNotGrantFocusCredit() started.
+◇ Test validationAndPersistence() started.
+◇ Test cycleAndExactlyOnceCompletion() started.
+✔ Test automaticBoundariesAndSleepCatchUp() passed after 0.001 seconds.
+✔ Test preferencesDoNotChangeCurrentDeadline() passed after 0.001 seconds.
+✔ Test pauseResumeDoesNotRepeatStart() passed after 0.001 seconds.
+✔ Test skipAndResetDoNotGrantFocusCredit() passed after 0.001 seconds.
+✔ Test cycleAndExactlyOnceCompletion() passed after 0.001 seconds.
+✔ Test summarySeparatesFocusBreakAndOutcomes() passed after 0.001 seconds.
+✔ Test midnightAllocationAndCompletionDate() passed after 0.001 seconds.
+✔ Test partialActivitiesAndReadyActions() passed after 0.001 seconds.
+✔ Test autoStartCreatesDistinctSessionAndExpiredSkipDoesNotDoubleAdvance() passed after 0.001 seconds.
+✔ Test validationAndPersistence() passed after 0.001 seconds.
+✔ Test historyExcludesPausesAndCompletesOnce() passed after 0.001 seconds.
+✔ Test daylightSavingBucketsPreserveTime() passed after 0.001 seconds.
+✔ Test oldSaveMigratesWithoutInventingHistory() passed after 0.001 seconds.
+✔ Test run with 13 tests in 0 suites passed after 0.001 seconds.

@@ -1,0 +1,14 @@
+PASS start actual timer
+PASS pause actual timer
+PASS resume actual timer
+PASS skip without focus credit
+PASS preferences and timer persist
+PASS six independent cues persist
+PASS partial activity history persists through real app actions
+PASS completed history survives relaunch without duplicate completion
+PASS validate and import real audio
+PASS imported sound copied locally
+PASS reject invalid audio with actionable error
+PASS all built-in sounds exist
+PASS live timer and sound playback smoke test
+SELFTEST PASS

@@ -1,0 +1,94 @@
+[0/1] Planning build
+Building for debugging...
+[0/6] Write sources
+[2/6] Write swift-version-7C0B0EF558F1DA5D.txt
+[4/12] Compiling Productimer Grid.swift
+[5/13] Emitting module ProductimerKitTests
+[6/13] Compiling ProductimerKitTests FlowCSVImporterTests.swift
+[6/13] Write Objects.LinkFileList
+[8/13] Compiling Productimer Snapshot.swift
+[9/13] Emitting module Productimer
+[10/13] Compiling Productimer FlowImportView.swift
+[10/14] Write Objects.LinkFileList
+[11/14] Linking ProductimerPackageTests
+[12/14] Linking Productimer
+[13/14] Applying Productimer
+Build complete! (1.89s)
+◇ Test run started.
+↳ Testing Library Version: 1902
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Test rejectsInvalidRowsWithoutLosingValidRows() started.
+◇ Test partialActivitiesAndReadyActions() started.
+◇ Test rejectsMalformedCSVAndConfiguration() started.
+◇ Test separateDateAndTimeHandlesMidnight() started.
+◇ Test pauseResumeDoesNotRepeatStart() started.
+◇ Test midnightAllocationAndCompletionDate() started.
+◇ Test deduplicatesRepeatedOverlappingAndNativeHistory() started.
+◇ Test rejectsInvalidLocalDatesAndAcceptsMinutePrecisionOffsets() started.
+◇ Test preferencesDoNotChangeCurrentDeadline() started.
+◇ Test historyExcludesPausesAndCompletesOnce() started.
+◇ Test daylightSavingBucketsPreserveTime() started.
+◇ Test rejectsInvalidDates(_:) started.
+◇ Test skipAndResetDoNotGrantFocusCredit() started.
+◇ Test validationAndPersistence() started.
+◇ Test autoStartCreatesDistinctSessionAndExpiredSkipDoesNotDoubleAdvance() started.
+◇ Test quotedCSVWithBOMUnicodeEscapesAndMultiline() started.
+◇ Test clockAndNumericDurations(_:_:) started.
+◇ Test existingRecordJSONMigratesWithNoImportMetadata() started.
+◇ Test importedMetadataAndProportionalPauseAllocation() started.
+◇ Test semicolonTabAndUTF16() started.
+◇ Test oldSaveMigratesWithoutInventingHistory() started.
+◇ Test rejectsInvalidDurations(_:) started.
+◇ Test dateMappingOffsetsAndDefaults() started.
+◇ Test summarySeparatesFocusBreakAndOutcomes() started.
+◇ Test cycleAndExactlyOnceCompletion() started.
+◇ Test automaticBoundariesAndSleepCatchUp() started.
+◇ Test case passing 2 arguments value → "25", expected → 1500.0 to clockAndNumericDurations(_:_:) started.
+◇ Test case passing 1 argument value → "invalid" to rejectsInvalidDates(_:) started.
+◇ Test case passing 2 arguments value → "25:00", expected → 1500.0 to clockAndNumericDurations(_:_:) started.
+◇ Test case passing 2 arguments value → "00:25:00", expected → 1500.0 to clockAndNumericDurations(_:_:) started.
+◇ Test case passing 1 argument value → "2026-11-05" to rejectsInvalidDates(_:) started.
+◇ Test case passing 2 arguments value → "1:02:03", expected → 3723.0 to clockAndNumericDurations(_:_:) started.
+◇ Test case passing 1 argument value → "-1" to rejectsInvalidDurations(_:) started.
+◇ Test case passing 1 argument value → "2026-13-05T09:00:00Z" to rejectsInvalidDates(_:) started.
+◇ Test case passing 1 argument value → "0" to rejectsInvalidDurations(_:) started.
+◇ Test case passing 2 arguments value → "1.5", expected → 90.0 to clockAndNumericDurations(_:_:) started.
+◇ Test case passing 1 argument value → "2026-02-30T09:00:00Z" to rejectsInvalidDates(_:) started.
+◇ Test case passing 1 argument value → "NaN" to rejectsInvalidDurations(_:) started.
+◇ Test case passing 1 argument value → "2026-11-05T25:00:00Z" to rejectsInvalidDates(_:) started.
+◇ Test case passing 1 argument value → "inf" to rejectsInvalidDurations(_:) started.
+◇ Test case passing 1 argument value → "2026-11-05T09:00:00Z garbage" to rejectsInvalidDates(_:) started.
+◇ Test case passing 1 argument value → "1e3" to rejectsInvalidDurations(_:) started.
+◇ Test case passing 1 argument value → "25:70" to rejectsInvalidDurations(_:) started.
+◇ Test case passing 1 argument value → "00:70:00" to rejectsInvalidDurations(_:) started.
+◇ Test case passing 1 argument value → "1:2:3:4" to rejectsInvalidDurations(_:) started.
+◇ Test case passing 1 argument value → "" to rejectsInvalidDurations(_:) started.
+◇ Test case passing 1 argument value → "1,5" to rejectsInvalidDurations(_:) started.
+◇ Test case passing 1 argument value → "9999999999999999999999999999999" to rejectsInvalidDurations(_:) started.
+✔ Test pauseResumeDoesNotRepeatStart() passed after 0.008 seconds.
+✔ Test preferencesDoNotChangeCurrentDeadline() passed after 0.008 seconds.
+✔ Test partialActivitiesAndReadyActions() passed after 0.008 seconds.
+✔ Test skipAndResetDoNotGrantFocusCredit() passed after 0.008 seconds.
+✔ Test autoStartCreatesDistinctSessionAndExpiredSkipDoesNotDoubleAdvance() passed after 0.008 seconds.
+✔ Test midnightAllocationAndCompletionDate() passed after 0.008 seconds.
+✔ Test validationAndPersistence() passed after 0.008 seconds.
+✔ Test existingRecordJSONMigratesWithNoImportMetadata() passed after 0.008 seconds.
+✔ Test historyExcludesPausesAndCompletesOnce() passed after 0.008 seconds.
+✔ Test oldSaveMigratesWithoutInventingHistory() passed after 0.008 seconds.
+✔ Test daylightSavingBucketsPreserveTime() passed after 0.008 seconds.
+✔ Test rejectsMalformedCSVAndConfiguration() passed after 0.008 seconds.
+✔ Test quotedCSVWithBOMUnicodeEscapesAndMultiline() passed after 0.008 seconds.
+✔ Test rejectsInvalidDates(_:) with 6 test cases passed after 0.008 seconds.
+✔ Test clockAndNumericDurations(_:_:) with 5 test cases passed after 0.008 seconds.
+✔ Test summarySeparatesFocusBreakAndOutcomes() passed after 0.008 seconds.
+✔ Test separateDateAndTimeHandlesMidnight() passed after 0.008 seconds.
+✔ Test cycleAndExactlyOnceCompletion() passed after 0.008 seconds.
+✔ Test semicolonTabAndUTF16() passed after 0.008 seconds.
+✔ Test automaticBoundariesAndSleepCatchUp() passed after 0.008 seconds.
+✔ Test importedMetadataAndProportionalPauseAllocation() passed after 0.008 seconds.
+✔ Test rejectsInvalidDurations(_:) with 11 test cases passed after 0.009 seconds.
+✔ Test rejectsInvalidLocalDatesAndAcceptsMinutePrecisionOffsets() passed after 0.009 seconds.
+✔ Test dateMappingOffsetsAndDefaults() passed after 0.010 seconds.
+✔ Test rejectsInvalidRowsWithoutLosingValidRows() passed after 0.012 seconds.
+✔ Test deduplicatesRepeatedOverlappingAndNativeHistory() passed after 0.012 seconds.
+✔ Test run with 26 tests in 0 suites passed after 0.012 seconds.

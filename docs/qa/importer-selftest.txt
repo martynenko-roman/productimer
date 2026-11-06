@@ -1,0 +1,21 @@
+PASS start actual timer
+PASS pause actual timer
+PASS resume actual timer
+PASS skip without focus credit
+PASS preferences and timer persist
+PASS six independent cues persist
+PASS partial activity history persists through real app actions
+PASS completed history survives relaunch without duplicate completion
+PASS CSV preview separates new, duplicate, and invalid rows
+PASS invalid CSV rows block import by default
+PASS CSV import preserves running timer and preferences
+PASS CSV metadata and history persist through relaunch
+PASS CSV import backs up previous store
+PASS reimport rechecks duplicates without adding records
+PASS failed CSV save leaves history unchanged
+PASS validate and import real audio
+PASS imported sound copied locally
+PASS reject invalid audio with actionable error
+PASS all built-in sounds exist
+PASS live timer and sound playback smoke test
+SELFTEST PASS

@@ -1,0 +1,20 @@
+[0/1] Planning build
+Building for debugging...
+[0/4] Write swift-version-7C0B0EF558F1DA5D.txt
+Build complete! (0.19s)
+◇ Test run started.
+↳ Testing Library Version: 1902
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Test automaticBoundariesAndSleepCatchUp() started.
+◇ Test cycleAndExactlyOnceCompletion() started.
+◇ Test validationAndPersistence() started.
+◇ Test preferencesDoNotChangeCurrentDeadline() started.
+◇ Test skipAndResetDoNotGrantFocusCredit() started.
+◇ Test pauseResumeDoesNotRepeatStart() started.
+✔ Test cycleAndExactlyOnceCompletion() passed after 0.001 seconds.
+✔ Test skipAndResetDoNotGrantFocusCredit() passed after 0.001 seconds.
+✔ Test pauseResumeDoesNotRepeatStart() passed after 0.001 seconds.
+✔ Test automaticBoundariesAndSleepCatchUp() passed after 0.001 seconds.
+✔ Test preferencesDoNotChangeCurrentDeadline() passed after 0.001 seconds.
+✔ Test validationAndPersistence() passed after 0.001 seconds.
+✔ Test run with 6 tests in 0 suites passed after 0.001 seconds.

@@ -1,0 +1,12 @@
+[0/1] Planning build
+Building for production...
+[0/5] Write sources
+[2/5] Write swift-version-7C0B0EF558F1DA5D.txt
+[4/6] Compiling ProductimerKit ActivityHistory.swift
+[5/7] Compiling Productimer App.swift
+[5/7] Write Objects.LinkFileList
+[6/7] Linking Productimer
+Build complete! (9.52s)
+wrote Resources/AppIcon.icns (standard icon fallback; Xcode actool unavailable)
+/Users/romanmartynenko/Desktop/Roman/repos/productimer/build/Productimer.app: replacing existing signature
+Built /Users/romanmartynenko/Desktop/Roman/repos/productimer/build/Productimer.app

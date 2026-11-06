@@ -1,0 +1,14 @@
+.build/
+.swiftpm/
+DerivedData/
+*.xcodeproj/
+xcuserdata/
+.DS_Store
+.env*
+/shots/
+/docs/screens/*.png
+/build/
+/Resources/Assets.car
+/Resources/AppIcon.icns
+/imports/flow-history/
+/Resources/Icon-preview.png
