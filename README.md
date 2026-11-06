@@ -1,6 +1,6 @@
 # Productimer
 
-A native macOS 26+ focus timer inspired by Flow, built with SwiftUI. No app or website blocking, account, or server.
+A native macOS 26+ focus timer inspired by Flow, built with SwiftUI. No app or website blocking, account, or server. Source and issues: [github.com/martynenko-roman/productimer](https://github.com/martynenko-roman/productimer).
 
 - Configurable focus, short-break and long-break periods (1–180 minutes).
 - Configurable cycle length (1–12 focuses), with separate automatic starts for focus and breaks.
